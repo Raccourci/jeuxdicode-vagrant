@@ -34,3 +34,19 @@ Si vous n'en avez pas, générer là avec la commande
 ```
 ssh-keygen -t rsa
 ```
+
+## 2) Installation de Vagrant et Virtualbox
+
+### Télécharger les versions conseillées
+
++ [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) - v4.3.18
++ [http://downloads.vagrantup.com/](http://downloads.vagrantup.com/) - v1.6.5
+
+### Installation annexe
+
+Une fois installer lancer la commande suivante pour automatiquement
+mettre en place les extensions de Virtualbox sur les nouvelles VMs.
+
+```
+vagrant plugin install vagrant-vbguest
+```
