@@ -50,3 +50,13 @@ mettre en place les extensions de Virtualbox sur les nouvelles VMs.
 ```
 vagrant plugin install vagrant-vbguest
 ```
+
+## 3) Ajouter l'outil de provision "Puppet"
+
+Pour lié le dépôt Vagrant et le dépôt Puppet, nous utilisons les sous-modules GIT.
+Pour les mettre à jour dans le futur, utilisez ces commandes :
+
+```
+git pull
+git submodule update --init --recursive
+```
