@@ -60,3 +60,13 @@ Pour les mettre à jour dans le futur, utilisez ces commandes :
 git pull
 git submodule update --init --recursive
 ```
+
+## 4) Config SSH pour se connecter dans la VM (~/.ssh/config)
+
+```
+Host jeuxdicode.dev
+    ForwardAgent yes
+    HostName 192.168.50.20
+    User admin
+    IdentityFile "~/.ssh/id_rsa"
+```
