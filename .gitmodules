@@ -1,3 +1,6 @@
 [submodule "puppet"]
 	path = puppet
 	url = https://github.com/Raccourci/jeuxdicode-puppet.git
+[submodule "capistrano"]
+	path = capistrano
+	url = https://github.com/Raccourci/jeuxdicode-capistrano.git
